@@ -21,16 +21,7 @@
     <ClCompile Include="task_08.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="project_01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="project_06.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="project_16.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="project_17.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="task_20.c">
@@ -40,6 +31,48 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="task_34.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_04.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_12.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_02.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_15.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_06.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_07.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_09.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_24.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_25.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="task_27.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
