@@ -28,6 +28,7 @@ void task02()
     print_by_general(n);
 }
 
+// 점화식
 void print_by_recurrence(int n)
 {
     int a = 1;          // a1 = 1
@@ -39,6 +40,7 @@ void print_by_recurrence(int n)
     printf("\n");
 }
 
+// 일반식
 void print_by_general(int n)
 {
     for (int i = 1; i <= n; i++)
