@@ -22,8 +22,9 @@ char* reverse_kor(char* str)
     // 문자열의 끝에서부터 2바이트씩 앞으로 이동하며 복사
     for (i = len - 2; i >= 0; i -= 2)
     {
-        result[j++] = str[i];     // 첫 번째 바이트 복사
-        result[j++] = str[i + 1]; // 두 번째 바이트 복사
+        // 한 글자(2바이트)를 통째로 복사
+        result[j++] = str[i];     // '램'을 앞으로 보내서 복사
+        result[j++] = str[i + 1]; // '램'의 뒷부분 복사, 다음 '그'의 뒷부분 복사 ... 이런식으로 진행
     }
     result[j] = '\0'; // 문자열 끝에 NULL 문자 추가
 
@@ -43,6 +44,7 @@ char* remove_blank(char* str)
         {
             result[j++] = str[i];
         }
+        // 공백이면? 아무것도 안 하고 그냥 넘어감
     }
     result[j] = '\0'; // 문자열 끝에 NULL 문자 추가
 
