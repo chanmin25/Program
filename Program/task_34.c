@@ -20,7 +20,8 @@ void task34()
     int* lotto = NULL; // 동적 배열을 위한 포인터
     int i;
 
-    // 1. 난수 생성기 초기화 (매번 다른 번호 생성을 위해 필수)
+    // 1. 난수 생성기 초기화 (현재 시간을 기점으로 매번 다른 번호 생성을 위해 필수)
+    // 기준점을 안바꿔주면 프로그램을 껏다 켜도 같은 숫자가 나옴
     srand((unsigned int)time(NULL));
 
     // 2. 제비 개수 입력
@@ -35,6 +36,7 @@ void task34()
     }
 
     // 3. 동적 메모리 할당 
+    // 배열 크기를 고정하기 애매함 malloc에게 int 크기(4바이트) * n개 만큼 메모리 좀 빌려주라고 요청하는 것.
     lotto = (int*)malloc(sizeof(int) * n);
     if (lotto == NULL)
     {
@@ -75,7 +77,7 @@ void generate_numbers(int* arr, int n)
     {
         temp = rand() % 100 + 1; // 1 ~ 100 사이 난수 생성
 
-        // 중복 검사: 이전에 생성된 번호들(0 ~ i-1)과 비교
+        // 중복 검사: 이전에 생성된 번호들(현재 뽑고 있는 위치(i)) 전까지 비교 
         for (j = 0; j < i; j++)
         {
             if (arr[j] == temp)
@@ -100,7 +102,7 @@ void sort_numbers(int* arr, int n)
 {
     int i, j, temp;
 
-    for (i = 0; i < n - 1; i++)
+    for (i = 0; i < n - 1; i++) // 전체 라운드 반복
     {
         for (j = 0; j < n - 1 - i; j++)
         {
