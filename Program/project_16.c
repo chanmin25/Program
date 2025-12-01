@@ -25,7 +25,6 @@ typedef struct
     int menuIdx; // 메뉴 배열의 인덱스
     int count;   // 주문 수량
 } Order;
-
 // 메뉴 데이터 초기화
 Menu menus[] =
 {
