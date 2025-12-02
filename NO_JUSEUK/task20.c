@@ -1,10 +1,4 @@
-/*
-    파일명: task_20
-    내용: 영어 단어에 대해 끝말을 이어가는 프로그램을 작성한다.
-    작성자: 정찬민
-    날짜: 2025.11.23
-    버전: v1.0
-*/
+
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>

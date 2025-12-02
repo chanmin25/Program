@@ -10,7 +10,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void ignition(int n);    // 전반선언
+void ignition(int n);    // 전방선언
 void general(int n);
 
 void task01()

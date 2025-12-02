@@ -72,7 +72,7 @@
     <ClCompile Include="task34.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="project16.c">
+    <ClCompile Include="zproject16.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
